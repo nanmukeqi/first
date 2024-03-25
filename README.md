@@ -1,4 +1,4 @@
-如何上传文件https://zhuanlan.zhihu.com/p/193140870
+如何上传文件https://zhuanlan.zhihu.com/p/193140870<br>
 生成密钥：ssh-keygen -t rsa -C “自己的邮箱”，（注：之后直接按回车就行，无需密码，过于麻烦），看是否生成成功看看对应文件夹下有没有id_rsa.pub这个文件，从而得到公钥
 创建本地文件夹，cd到本地文件夹，之后初始化，初始化之后会多出一个隐藏的.git文件夹，之后就进行添加（git add .），（git commit -m "引号中是注释"），最后进行关联远程仓库，并进行上传。
 git init //把这个目录变成Git可以管理的仓库
